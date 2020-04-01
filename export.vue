@@ -16,8 +16,8 @@
         type="primary"
         icon="el-icon-document"
         @click="handleDownload"
-      >导出学生考勤信息</el-button>
-      <el-button style="margin:0 0 20px 20px;" type icon="el-icon-document" @click="tip">导出学号显示问题</el-button>
+      >导出信息</el-button>
+      <el-button style="margin:0 0 20px 20px;" type icon="el-icon-document" @click="tip">导出数据显示问题</el-button>
     </div>
     <el-table
       id="table-data"
@@ -28,14 +28,14 @@
       fit
       highlight-current-row
     >
-      <el-table-column label="学号" prop="studentId"></el-table-column>
-      <el-table-column label="姓名" prop="studentName"></el-table-column>
-      <el-table-column label="班级" prop="class"></el-table-column>
-      <el-table-column label="缺勤" prop="absent"></el-table-column>
-      <el-table-column label="事假" prop="affairLeave"></el-table-column>
-      <el-table-column label="病假" prop="sickLeave"></el-table-column>
-      <el-table-column label="迟到" prop="late"></el-table-column>
-      <el-table-column label="早退" prop="earlyLeave"></el-table-column>
+      <el-table-column label="列1" prop="属性1"></el-table-column>
+      <el-table-column label="列2" prop="属性2"></el-table-column>
+      <el-table-column label="列3" prop="属性3"></el-table-column>
+      <el-table-column label="列4" prop="属性4"></el-table-column>
+      <el-table-column label="列5" prop="属性5"></el-table-column>
+      <el-table-column label="列6" prop="属性6"></el-table-column>
+      <el-table-column label="列7" prop="属性7"></el-table-column>
+      <el-table-column label="列8" prop="属性8"></el-table-column>
     </el-table>
   </div>
 </template>
